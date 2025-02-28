@@ -28,27 +28,27 @@ html{
 
 
 
-.home-content{
+/* .home-content{
     background-image: linear-gradient(to margin-bottom,#f7f7f7,#e5e5e5);
     width: 100%;
-    min-height: 100vh;
-    /* background-color: rgb(241, 234, 225); */
-    /* overflow: hidden; */
-}
+    height: 100vh;
+    background-color: rgb(241, 234, 225);
+    overflow: hidden;
+
+} */
 
 .home-left{
+    /* background-color: blue; */
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    /* height: 100vh; */
 }
 
 .hero-text{
-    position: absolute;
-    left: 7%;
-    top: 6%;
+    /* position: absolute; */
+    margin-left: 7%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #0088cc;
-
     text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     font-weight: bold;
     font-style: italic;
@@ -68,20 +68,19 @@ html{
 }
 
 .change{
-    position: absolute;
-    left: 7%;
-    top: 31%;
+    /* position: absolute; */
+    margin-left: 7%;
+    top: 33%;
     text-transform: capitalize;
     text-shadow: 2px 2px 5px #4d4b4b;
-
 }
 
+
 .home-page-img{
-    position: absolute;
-    left: 22%;
-    top:43%;
-    width: 60%;
-    height: 70%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    width: 65%;
+    height:90%;
     opacity: 0.6;
 }
 
@@ -104,41 +103,48 @@ html{
 
 
 .home-right{
-    position: relative;
+    /* background-color: red !important; */
+    /* position: relative; */
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     text-align: center;
 }
 
 .download-cv{
-    position: absolute;
     transition: transform 0.5s ease;
-    right: 40%;
-    top: 20%;
+    margin-top: 10%;
+    margin-right: 6%;
 }
 .download-cv:hover:active{
     transform: scale(0.9);
 }
 
 .home-icon{
-    position: absolute;
-    right: 25%;
-    top: 20%;
+    display: block;
+    margin-right: 5%;
+    margin-top: 7%;
+ }
+ .motivation{
+    font-size: 22px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px #b3acac;
+    margin-top: 6%;
  }
 
 .aspire{
-    position: absolute;
+    /* position: absolute; */
     color: rgb(79, 90, 189);
-    right: 8%;
-    bottom: 15%;
+    margin-top:20% ;
+    margin-left: 58%;
 
 }
 
 .my-name{
-    font-size:20px ;
+    font-size:16px ;
 }
 
-.home-content {
+/* .home-content {
     background-color: #ffffff;
     animation: color 3s ease-in-out;
     
@@ -150,41 +156,51 @@ html{
     100%{
         background-color: #f7f7f7;
     }
-}
+} */
 
 .About{
     background-image: linear-gradient(to margin-bottom,#f7f7f7,#e5e5e5);
     width: 100%;
-    /* background-color: rgb(250, 247, 243); */
+    background-color: rgb(250, 247, 243);
     height: 100vh;
     
 }
 
-.my-photo{
-    filter: saturate(100%);
-    width: 35%;
-    height: 35%;
-    border-radius: 40%;
-    margin-top: 20%;
-    margin-left: 30%;
-    margin-bottom: 10%;
+.my-img{
+    
+    width: 100%;
+    
 }
 
-.about-text{
-    margin-top: 18%;
+
+
+.my-photo{
+    width: 35%;
+    height: 35%;
+    margin-left: 32%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+    
+    
 }
 
 .about-me{
     text-align: center;
-}
-
-.about-text p{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-    font-size: 17px;
     
 }
 
+.about-text{
+    
+    margin: 18%;
+
+}
+
+.about-text p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+}
 
 .single-service-icon{
     width: 30%;
