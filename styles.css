@@ -123,6 +123,7 @@ html{
 }
 
 .home-content {
+    background-color:red;
     background-color: #ffffff;
     animation: color 3s ease-in-out;
     
