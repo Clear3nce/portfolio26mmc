@@ -33,6 +33,7 @@ html{
 }
 
 .home-content{
+    position: relative;
     background-image: linear-gradient(to margin-bottom,#f7f7f7,#e5e5e5);
     width: 100%;
     min-height: 100vh;
@@ -41,8 +42,8 @@ html{
 }
 
 .home-page-img{
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
     margin-left: 20%;
     opacity: 0.6;
 }
@@ -140,6 +141,7 @@ html{
     width: 100%;
     /* background-color: rgb(250, 247, 243); */
     height: 100vh;
+    background-color:#333;
     
 }
 
