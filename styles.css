@@ -26,14 +26,9 @@ html{
     text-shadow: 2px 2px 5px #4786a5;
 }
 
-.home-icon{
-   padding: -70px;
-   margin-left: 23%;
-   margin-top: 33px;
-}
+
 
 .home-content{
-    position: relative;
     background-image: linear-gradient(to margin-bottom,#f7f7f7,#e5e5e5);
     width: 100%;
     min-height: 100vh;
@@ -41,28 +36,24 @@ html{
     overflow: hidden;
 }
 
-.home-page-img{
-    width: 70%;
-    height: 70%;
-    margin-left: 20%;
-    opacity: 0.6;
-}
-
 .home-left{
-    margin-left: 5%;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .hero-text{
-    
+    position: absolute;
+    left: 7%;
+    top: 6%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #0088cc;
 
     text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     font-weight: bold;
     font-style: italic;
-    animation: fadeIn 4s ease-in-out 0s infinite;
+    animation: fadeIn 4s ease-in-out 0.1s infinite;
 }
-
 
 @keyframes fadeIn{
     0%{
@@ -76,8 +67,22 @@ html{
     }
 }
 
-.animated-text{
-    animation: fadeIn 2s ease-in-out 0.1s infinite;
+.change{
+    position: absolute;
+    left: 7%;
+    top: 31%;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px #4d4b4b;
+
+}
+
+.home-page-img{
+    position: absolute;
+    left: 22%;
+    top:43%;
+    width: 60%;
+    height: 70%;
+    opacity: 0.6;
 }
 
 /* @-webkit-keyframes fadeIn{
@@ -93,28 +98,39 @@ html{
 } */
 
 
-.change{
-    text-transform: capitalize;
-    text-shadow: 2px 2px 5px #4d4b4b;
 
+
+
+
+
+.home-right{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
 }
 
 .download-cv{
-    margin-left: 5%;
-    margin-top: 5%;
+    position: absolute;
     transition: transform 0.5s ease;
+    right: 40%;
+    top: 20%;
 }
 .download-cv:hover:active{
     transform: scale(0.9);
 }
 
-.home-right{
-    text-align: center;
-}
+.home-icon{
+    position: absolute;
+    right: 25%;
+    top: 20%;
+ }
 
 .aspire{
+    position: absolute;
     color: rgb(79, 90, 189);
-    margin-top: 40%;
+    right: 8%;
+    bottom: 15%;
 
 }
 
@@ -123,7 +139,6 @@ html{
 }
 
 .home-content {
-    background-color:red;
     background-color: #ffffff;
     animation: color 3s ease-in-out;
     
@@ -142,7 +157,6 @@ html{
     width: 100%;
     /* background-color: rgb(250, 247, 243); */
     height: 100vh;
-    background-color:#333;
     
 }
 
