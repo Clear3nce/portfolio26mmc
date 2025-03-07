@@ -68,7 +68,8 @@ html{
     margin-bottom: 10%;
     width: 65%;
     height:90%;
-    opacity: 0.6;
+    opacity: 0.8;
+    filter: grayscale(60%);
 }
 
 /* @-webkit-keyframes fadeIn{
