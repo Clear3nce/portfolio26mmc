@@ -1,4 +1,4 @@
-*{
+aw*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -56,10 +56,19 @@ html{
 
 .change{
     /* position: absolute; */
+    width:44ch;
     margin-left: 7%;
     top: 33%;
     text-transform: capitalize;
     text-shadow: 2px 2px 5px #4d4b4b;
+    text-wrap: nowrap;
+    overflow:hidden;
+    animation: typing 2s steps(45) infinite alternate-reverse;
+}
+@keyframes typing{
+    from{
+        width: 0ch;
+    }
 }
 
 
