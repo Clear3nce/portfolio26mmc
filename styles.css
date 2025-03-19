@@ -63,7 +63,7 @@ html{
     text-shadow: 2px 2px 5px #4d4b4b;
     text-wrap: nowrap;
     overflow:hidden;
-    animation: typing 2s steps(45) infinite alternate-reverse;
+    animation: typing 4s steps(45) infinite alternate-reverse;
 }
 @keyframes typing{
     from{
